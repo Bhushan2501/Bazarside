@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.section-title{
+    
+    text-align: center;
+    font-size: 3em;
+    margin-top: 40px;
+}
+
+hr{ 
+    width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  height: 6px;
+  background-color: rgb(68, 165, 255);
+  border-radius: 8px;
+
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+.container{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+ 
+}
+
+.box{
+    width: 300px;
+    height: 250px;
+    border-radius: 5px;
+    margin: 5%;
+    text-align: left;
+    letter-spacing: 1px;
+    box-shadow: 0 3px 5px rgba(0,0,0,.3);
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+    border-color: rgb(68, 165, 255) ;;
+}
+
+.text-info{
+    font-size: 15px;
+    text-align: center;
+    margin: 10% 3% 5% 10%;
+    text-align: justify;
+
+}
+
+.input{
+    margin: 10% 3% 5% 10%;
+
+}
+input[type="text"]{
+    width: 250px;
+    height: 25px;
+    font-size: 15px;
+}
+button{
+    width: 85%;
+    height: 30px;
+    margin-left: 10%;
+/* margin-right: 10%; */
+    background-color: rgb(68, 165, 255);
+    border-color: none;
+}
+
+.Login{
+    text-align: center;
+    margin-top: 50px;
+    text-decoration: none;
+}
+
+.box1{
+    width: 300px;
+    height: 250px;
+    border-radius: 5px;
+    margin: 5%;
+    text-align: left;
+    letter-spacing: 1px;
+    box-shadow: 0 3px 5px rgba(0,0,0,.3);
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+    border-color: rgb(68, 165, 255) ;;
+}
+
+.button1{
+    margin-top: 0cm;
+
+}
+
+.text-info1{
+    font-size: 15px;
+    text-align: center;
+    margin: 5% 3% 5% 5%;
+    text-align: justify;
+
+}
+
+.border{
+    margin: 0;
+    padding:0;
+    width: 300px;
+    height: 5px;
+    background-color: rgb(68, 165, 255) ;
+}
+
+html{
+    background: url(background.jpg)  no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
